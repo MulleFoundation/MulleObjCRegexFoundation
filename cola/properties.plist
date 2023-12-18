@@ -1,0 +1,39 @@
+{
+   project =
+   {
+      description="🛸 MulleObjCRegexFoundation does something";
+      domain="github";
+      name="MulleObjCRegexFoundation";
+      user="MulleFoundation";
+      repo="MulleObjCRegexFoundation";
+      homepage="https://github.com/MulleFoundation/MulleObjCRegexFoundation";
+      license="UNLICENSED"
+   };
+   dependencies =
+   (
+      {
+         description="💶 Value classes NSNumber, NSString, NSDate, NSData";
+         domain="github";
+         name="MulleObjCValueFoundation";
+         repo="MulleObjCValueFoundation";
+         url="https://github.com/MulleFoundation/MulleObjCValueFoundation";
+         user="MulleFoundation";
+      },
+      {
+         description="📣 Unicode regex library";
+         domain="github";
+         name="mulle-regex";
+         repo="mulle-regex";
+         url="https://github.com/mulle-c/mulle-regex";
+         user="mulle-c";
+      },
+      {
+         description="📒 Lists mulle-objc runtime information contained in executables.";
+         domain="github";
+         name="mulle-objc-list";
+         repo="mulle-objc-list";
+         url="https://github.com/mulle-objc/mulle-objc-list";
+         user="mulle-objc";
+      }
+   )
+}
