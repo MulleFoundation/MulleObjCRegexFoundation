@@ -1,0 +1,31 @@
+{
+   "name" : "MulleObjCRegexFoundation",
+   "version" : "0.20.5",
+   "description" : "🛸 MulleObjCRegexFoundation does something",
+   "keywords" : [],
+   "license" : "UNLICENSED",
+   "repo" : "MulleFoundation/MulleObjCRegexFoundation",
+   "src" : [
+      "src/generic/import-private.h",
+      "src/generic/import.h",
+      "src/generic/include-private.h",
+      "src/generic/include.h",
+      "src/generic/MulleObjCLoader+MulleObjCRegexFoundation.h",
+      "src/generic/MulleObjCLoader+MulleObjCRegexFoundation.m",
+      "src/MulleObjCRegexFoundation.h",
+      "src/NSString+Regex.h",
+      "src/NSString+Regex.m",
+      "src/reflect/objc-loader.inc",
+      "src/reflect/_MulleObjCRegexFoundation-export.h",
+      "src/reflect/_MulleObjCRegexFoundation-import-private.h",
+      "src/reflect/_MulleObjCRegexFoundation-import.h",
+      "src/reflect/_MulleObjCRegexFoundation-include-private.h",
+      "src/reflect/_MulleObjCRegexFoundation-include.h",
+      "src/reflect/_MulleObjCRegexFoundation-provide.h"
+   ],
+   "dependencies" : {
+      "MulleFoundation/MulleObjCValueFoundation": "*",
+      "mulle-c/mulle-regex": "*",
+      "mulle-objc/mulle-objc-list": "*"
+   }
+}
