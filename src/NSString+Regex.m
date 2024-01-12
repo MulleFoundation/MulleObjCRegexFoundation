@@ -372,12 +372,12 @@ static size_t    patternSizeWithOptions( NSString *pattern,
                         options:(NSStringCompareOptions) options
                           range:(NSRange) range
 {
-   NSRange                   resultRange;
-   NSUInteger                pattern_length;
-   int                       result;
-   unichar                   *p;
-   void                      *r;
-   size_t                    size;
+   NSRange      resultRange;
+   NSUInteger   pattern_length;
+   int          result;
+   unichar      *p;
+   void         *r;
+   size_t       size;
 
    range       = MulleObjCRangeValidateAgainstLength( range, [self length]);
    resultRange = NSMakeRange( NSNotFound, 0);
@@ -539,6 +539,7 @@ static size_t    patternSizeWithOptions( NSString *pattern,
             // figure out the length of the substitution
             rep_length = mulle_utf32regex_substitution_length( r, substitution_characters);
             if( rep_length == (unsigned int) -1)
+               break;
 
             dst_length  = rep_length;
             dst_length += affixRanges[ 0].length;
@@ -557,7 +558,7 @@ static size_t    patternSizeWithOptions( NSString *pattern,
             mulle_utf32_memcpy( rep, characters, affixRanges[ 0].length);
             rep = &rep[ affixRanges[ 0].length];
 
-            result = mulle_utf32regex_substitute( r, substitution_characters, rep, rep_length + 1);
+            result = mulle_utf32regex_substitute( r, substitution_characters, rep, rep_length + 1, 1);
             if( result < 0)
             {
                mulle_free( buf);
@@ -575,8 +576,8 @@ static size_t    patternSizeWithOptions( NSString *pattern,
                                                    length:dst_length
                                                 allocator:allocator];
          }
-         mulle_utf32regex_free( r);
       }
+      mulle_utf32regex_free( r);
    }
    return( s);
 }

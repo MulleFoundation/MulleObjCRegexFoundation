@@ -55,6 +55,12 @@ typedef   NS_ENUM( NSUInteger, MulleObjCPatternOptions)
 
 @interface NSString( Regex)
 
+- (NSRange) mulleRangeOfPattern:(NSString *) pattern;
+
+- (NSString *) mulleStringByReplacingPattern:(NSString *) pattern
+                                  withString:(NSString *) substitution;
+
+// variations
 - (NSString *) mulleStringByReplacingPattern:(NSString *) pattern
                                   withString:(NSString *) substitution
                                      options:(MulleObjCPatternOptions) options
@@ -64,9 +70,6 @@ typedef   NS_ENUM( NSUInteger, MulleObjCPatternOptions)
                                   withString:(NSString *) substitution
                                      options:(MulleObjCPatternOptions) options;
 
-- (NSString *) mulleStringByReplacingPattern:(NSString *) pattern
-                                  withString:(NSString *) substitution;
-
 - (NSRange) mulleRangeOfPattern:(NSString *) pattern
                         options:(MulleObjCPatternOptions) options
                           range:(NSRange) range;
@@ -74,7 +77,6 @@ typedef   NS_ENUM( NSUInteger, MulleObjCPatternOptions)
 - (NSRange) mulleRangeOfPattern:(NSString *) pattern
                         options:(MulleObjCPatternOptions) options;
 
-- (NSRange) mulleRangeOfPattern:(NSString *) pattern;
 
 @end
 
