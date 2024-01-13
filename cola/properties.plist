@@ -20,14 +20,6 @@
          user="MulleFoundation";
       },
       {
-         description="📣 Unicode regex library";
-         domain="github";
-         name="mulle-regex";
-         repo="mulle-regex";
-         url="https://github.com/mulle-c/mulle-regex";
-         user="mulle-c";
-      },
-      {
          description="📒 Lists mulle-objc runtime information contained in executables.";
          domain="github";
          name="mulle-objc-list";
