@@ -3,7 +3,7 @@
    "version" : "0.20.5",
    "description" : "🛸 MulleObjCRegexFoundation does something",
    "keywords" : [],
-   "license" : "UNLICENSED",
+   "license" : "BSD-3-Clause",
    "repo" : "MulleFoundation/MulleObjCRegexFoundation",
    "src" : [
       "src/generic/import-private.h",
@@ -25,7 +25,6 @@
    ],
    "dependencies" : {
       "MulleFoundation/MulleObjCValueFoundation": "*",
-      "mulle-c/mulle-regex": "*",
       "mulle-objc/mulle-objc-list": "*"
    }
 }
