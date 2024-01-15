@@ -1,7 +1,8 @@
 # MulleObjCRegexFoundation
 
-#### 🛸 MulleObjCRegexFoundation does something
+#### 🫅 Search and replace with regular expressions
 
+Search and replace with regular expressions or wildcards in NSString.
 
 
 | Release Version                                       | Release Notes
@@ -26,11 +27,29 @@
 
 ## Add
 
+**This project is a component of the [MulleFoundation](//github.com/MulleFoundation/MulleFoundation) library.
+As such you usually will *not* add or install it individually, unless you
+specifically do not want to link against `MulleFoundation`.**
+
+
+### Add as an individual component
+
 Use [mulle-sde](//github.com/mulle-sde) to add MulleObjCRegexFoundation to your project:
 
 ``` sh
 mulle-sde add github:MulleFoundation/MulleObjCRegexFoundation
 ```
+
+To only add the sources of MulleObjCRegexFoundation with dependency
+sources use [clib](https://github.com/clibs/clib):
+
+
+``` sh
+clib install --out src/MulleFoundation MulleFoundation/MulleObjCRegexFoundation
+```
+
+Add `-isystem src/MulleFoundation` to your `CFLAGS` and compile all the sources that were downloaded with your project.
+
 
 ## Install
 
