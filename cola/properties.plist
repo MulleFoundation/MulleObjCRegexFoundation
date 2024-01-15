@@ -1,7 +1,7 @@
 {
    project =
    {
-      description="🛸 MulleObjCRegexFoundation does something";
+      description="🫅 Search and replace with regular expressions";
       domain="github";
       name="MulleObjCRegexFoundation";
       user="MulleFoundation";
