@@ -1,7 +1,7 @@
 {
    "name" : "MulleObjCRegexFoundation",
    "version" : "0.20.5",
-   "description" : "🛸 MulleObjCRegexFoundation does something",
+   "description" : "🫅 Search and replace with regular expressions",
    "keywords" : [],
    "license" : "BSD-3-Clause",
    "repo" : "MulleFoundation/MulleObjCRegexFoundation",
