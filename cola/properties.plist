@@ -3,6 +3,8 @@
    {
       description="🫅 Search and replace with regular expressions";
       domain="github";
+      language="c";
+      dialect="objc";
       name="MulleObjCRegexFoundation";
       user="MulleFoundation";
       repo="MulleObjCRegexFoundation";
