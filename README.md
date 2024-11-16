@@ -53,8 +53,6 @@ Add `-isystem src/MulleFoundation` to your `CFLAGS` and compile all the sources 
 
 ## Install
 
-### Install with mulle-sde
-
 Use [mulle-sde](//github.com/mulle-sde) to build and install MulleObjCRegexFoundation and all dependencies:
 
 ``` sh
@@ -62,7 +60,7 @@ mulle-sde install --prefix /usr/local \
    https://github.com/MulleFoundation/MulleObjCRegexFoundation/archive/latest.tar.gz
 ```
 
-### Manual Installation
+### Legacy Installation
 
 Install the requirements:
 
