@@ -7,7 +7,7 @@ Search and replace with regular expressions or wildcards in NSString.
 
 | Release Version                                       | Release Notes
 |-------------------------------------------------------|--------------
-| ![Mulle kybernetiK tag](https://img.shields.io/github/tag/MulleFoundation/MulleObjCRegexFoundation.svg?branch=release) [![Build Status](https://github.com/MulleFoundation/MulleObjCRegexFoundation/workflows/CI/badge.svg?branch=release)](//github.com/MulleFoundation/MulleObjCRegexFoundation/actions) | [RELEASENOTES](RELEASENOTES.md) |
+| ![Mulle kybernetiK tag](https://img.shields.io/github/tag/MulleFoundation/MulleObjCRegexFoundation.svg) [![Build Status](https://github.com/MulleFoundation/MulleObjCRegexFoundation/workflows/CI/badge.svg)](//github.com/MulleFoundation/MulleObjCRegexFoundation/actions) | [RELEASENOTES](RELEASENOTES.md) |
 
 
 
