@@ -70,3 +70,5 @@ build-*
 coverage*.html
 *.gcda
 *.gcno
+.mulle/etc/make/build-dir
+vgcore.*

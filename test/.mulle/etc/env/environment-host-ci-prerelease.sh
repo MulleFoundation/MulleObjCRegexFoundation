@@ -1,19 +1,37 @@
 #
-# MulleObjC-startup nodetype: ${MULLEOBJC_STARTUP_NODETYPE:-tar}
+# MulleObjCRegexFoundation nodetype: ${MULLE_OBJC_REGEX_FOUNDATION_NODETYPE:-tar}
 #
-export MULLEOBJC_STARTUP_NODETYPE="git"
+export MULLE_OBJC_REGEX_FOUNDATION_NODETYPE="git"
 
 
 #
-# MulleObjC-startup url: ${MULLEOBJC_STARTUP_URL:-https://github.com/mulle-objc/MulleObjC-startup/archive/${MULLE_TAG}.tar.gz}
+# MulleObjCRegexFoundation url: ${MULLE_OBJC_REGEX_FOUNDATION_URL:-https://github.com/MulleFoundation/MulleObjCRegexFoundation/archive/${MULLE_TAG}.tar.gz}
 #
-export MULLEOBJC_STARTUP_URL="https://github.com/mulle-objc/MulleObjC-startup.git"
+export MULLE_OBJC_REGEX_FOUNDATION_URL="https://github.com/MulleFoundation/MulleObjCRegexFoundation.git"
 
 
 #
-# MulleObjC-startup branch: ${MULLEOBJC_STARTUP_BRANCH}
+# MulleObjCRegexFoundation branch: ${MULLE_OBJC_REGEX_FOUNDATION_BRANCH}
 #
-export MULLEOBJC_STARTUP_BRANCH="prerelease"
+export MULLE_OBJC_REGEX_FOUNDATION_BRANCH="prerelease"
+
+
+#
+# MulleObjCValueFoundation nodetype: ${MULLE_OBJC_VALUE_FOUNDATION_NODETYPE:-tar}
+#
+export MULLE_OBJC_VALUE_FOUNDATION_NODETYPE="git"
+
+
+#
+# MulleObjCValueFoundation url: ${MULLE_OBJC_VALUE_FOUNDATION_URL:-https://github.com/MulleFoundation/MulleObjCValueFoundation/archive/${MULLE_TAG}.tar.gz}
+#
+export MULLE_OBJC_VALUE_FOUNDATION_URL="https://github.com/MulleFoundation/MulleObjCValueFoundation.git"
+
+
+#
+# MulleObjCValueFoundation branch: ${MULLE_OBJC_VALUE_FOUNDATION_BRANCH}
+#
+export MULLE_OBJC_VALUE_FOUNDATION_BRANCH="prerelease"
 
 
 #
@@ -161,42 +179,6 @@ export MULLE__OBJC__LIST_BRANCH="prerelease"
 
 
 #
-# MulleObjCRegexFoundation nodetype: ${MULLE_OBJC_REGEX_FOUNDATION_NODETYPE:-tar}
-#
-export MULLE_OBJC_REGEX_FOUNDATION_NODETYPE="git"
-
-
-#
-# MulleObjCRegexFoundation url: ${MULLE_OBJC_REGEX_FOUNDATION_URL:-https://github.com/MulleFoundation/MulleObjCRegexFoundation/archive/${MULLE_TAG}.tar.gz}
-#
-export MULLE_OBJC_REGEX_FOUNDATION_URL="https://github.com/MulleFoundation/MulleObjCRegexFoundation.git"
-
-
-#
-# MulleObjCRegexFoundation branch: ${MULLE_OBJC_REGEX_FOUNDATION_BRANCH}
-#
-export MULLE_OBJC_REGEX_FOUNDATION_BRANCH="prerelease"
-
-
-#
-# MulleObjCValueFoundation nodetype: ${MULLE_OBJC_VALUE_FOUNDATION_NODETYPE:-tar}
-#
-export MULLE_OBJC_VALUE_FOUNDATION_NODETYPE="git"
-
-
-#
-# MulleObjCValueFoundation url: ${MULLE_OBJC_VALUE_FOUNDATION_URL:-https://github.com/MulleFoundation/MulleObjCValueFoundation/archive/${MULLE_TAG}.tar.gz}
-#
-export MULLE_OBJC_VALUE_FOUNDATION_URL="https://github.com/MulleFoundation/MulleObjCValueFoundation.git"
-
-
-#
-# MulleObjCValueFoundation branch: ${MULLE_OBJC_VALUE_FOUNDATION_BRANCH}
-#
-export MULLE_OBJC_VALUE_FOUNDATION_BRANCH="prerelease"
-
-
-#
 # mulle-testallocator nodetype: ${MULLE__TESTALLOCATOR_NODETYPE:-tar}
 #
 export MULLE__TESTALLOCATOR_NODETYPE="git"
@@ -320,5 +302,23 @@ export DLFCN__WIN32_URL="https://github.com/mulle-core/dlfcn-win32.git"
 # dlfcn-win32 branch: ${DLFCN__WIN32_BRANCH}
 #
 export DLFCN__WIN32_BRANCH="prerelease"
+
+
+#
+# MulleObjC-startup nodetype: ${MULLE_OBJC__STARTUP_NODETYPE:-tar}
+#
+export MULLE_OBJC__STARTUP_NODETYPE="git"
+
+
+#
+# MulleObjC-startup url: ${MULLE_OBJC__STARTUP_URL:-https://github.com/mulle-objc/MulleObjC-startup/archive/${MULLE_TAG}.tar.gz}
+#
+export MULLE_OBJC__STARTUP_URL="https://github.com/mulle-objc/MulleObjC-startup.git"
+
+
+#
+# MulleObjC-startup branch: ${MULLE_OBJC__STARTUP_BRANCH}
+#
+export MULLE_OBJC__STARTUP_BRANCH="prerelease"
 
 
