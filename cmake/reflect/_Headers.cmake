@@ -56,6 +56,6 @@ src/generic/include.h
 set( PUBLIC_HEADERS
 src/MulleObjCRegexFoundation.h
 src/NSString+Regex.h
-src/generic/MulleObjCLoader+MulleObjCRegexFoundation.h
+src/generic/MulleObjCDeps+MulleObjCRegexFoundation.h
 )
 

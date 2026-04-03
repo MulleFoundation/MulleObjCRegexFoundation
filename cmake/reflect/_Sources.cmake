@@ -18,5 +18,5 @@ src/NSString+Regex.m
 # contents selected with patternfile ??-source--stage2-sources
 #
 set( STAGE2_SOURCES
-src/generic/MulleObjCLoader+MulleObjCRegexFoundation.m
+src/generic/MulleObjCDeps+MulleObjCRegexFoundation.m
 )
