@@ -10,6 +10,7 @@
       repo="MulleObjCRegexFoundation";
       homepage="https://github.com/MulleFoundation/MulleObjCRegexFoundation";
       license="BSD-3-Clause";
+      version="0.20.9";
    };
    dependencies =
    (
