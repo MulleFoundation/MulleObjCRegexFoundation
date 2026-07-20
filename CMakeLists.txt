@@ -8,7 +8,7 @@
 #
 cmake_minimum_required( VERSION 3.13...99.99)
 
-project( MulleObjCRegexFoundation VERSION 0.20.9 LANGUAGES C)
+project( MulleObjCRegexFoundation VERSION 0.20.10 LANGUAGES C)
 
 # if use embedded project with symlinks and you want to distribute their
 # headers you probably need to turn this on
