@@ -12,6 +12,11 @@ Search and replace with regular expressions or wildcards in NSString.
 
 
 
+## Documentation & Guides
+
+* [API Summary](asset/dox/api/toc)
+
+
 
 
 ## Requirements
