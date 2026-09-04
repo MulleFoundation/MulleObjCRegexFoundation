@@ -57,5 +57,6 @@ set( PUBLIC_HEADERS
 src/MulleObjCRegexFoundation.h
 src/NSString+Regex.h
 src/generic/MulleObjCDeps+MulleObjCRegexFoundation.h
+src/reflect/_MulleObjCRegexFoundation-versioncheck.h
 )
 
