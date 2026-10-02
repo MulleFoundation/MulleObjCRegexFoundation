@@ -11,6 +11,15 @@ endif()
 # contents selected with patternfile ??-source--sources
 #
 set( SOURCES
+src/MulleObjCPatternEnumerator.m
+src/MulleObjCPatternMatch.m
+src/MulleObjCPattern.m
+src/MulleObjCTokenProblem.m
+src/MulleObjCTokenRule.m
+src/MulleObjCTokenSet.m
+src/MulleObjCTokenizer.m
+src/MulleObjCToken.m
+src/NSScanner+Regex.m
 src/NSString+Regex.m
 )
 

@@ -1,0 +1,27 @@
+groups: 2
+match: ab-12
+range: 0,5
+group1: ab
+group2: 12
+group3 out of range: yes
+count: 3
+match: ab-12
+match: cd-34
+match: ef-56
+next: xx-1
+next: yy-22
+forin: ab-12
+total: 3
+in-range: 1
+anchored foo: yes
+anchored xfoo: no
+template: 12-ab 34-cd
+amp: [ab-12]
+empty: 5
+matched groups: 3
+group1: a
+group2 unset: yes
+group3: c
+greedy whole: aa
+greedy group1: a
+cache group2: FOO

@@ -1,6 +1,6 @@
 {
    "name" : "MulleObjCRegexFoundation",
-   "version" : "0.20.11",
+   "version" : "0.21.0",
    "description" : "🫅 Search and replace with regular expressions",
    "keywords" : [],
    "license" : "BSD-3-Clause",
@@ -13,7 +13,26 @@
       "src/generic/include.h",
       "src/generic/MulleObjCDeps+MulleObjCRegexFoundation.h",
       "src/generic/MulleObjCDeps+MulleObjCRegexFoundation.m",
+      "src/MulleObjCPattern-Private.h",
+      "src/MulleObjCPattern.h",
+      "src/MulleObjCPattern.m",
+      "src/MulleObjCPatternEnumerator.h",
+      "src/MulleObjCPatternEnumerator.m",
+      "src/MulleObjCPatternMatch.h",
+      "src/MulleObjCPatternMatch.m",
       "src/MulleObjCRegexFoundation.h",
+      "src/MulleObjCToken.h",
+      "src/MulleObjCToken.m",
+      "src/MulleObjCTokenizer.h",
+      "src/MulleObjCTokenizer.m",
+      "src/MulleObjCTokenProblem.h",
+      "src/MulleObjCTokenProblem.m",
+      "src/MulleObjCTokenRule.h",
+      "src/MulleObjCTokenRule.m",
+      "src/MulleObjCTokenSet.h",
+      "src/MulleObjCTokenSet.m",
+      "src/NSScanner+Regex.h",
+      "src/NSScanner+Regex.m",
       "src/NSString+Regex.h",
       "src/NSString+Regex.m",
       "src/reflect/objc-deps.inc",
@@ -26,6 +45,8 @@
    ],
    "dependencies" : {
       "MulleFoundation/MulleObjCValueFoundation": "*",
-      "mulle-objc/mulle-objc-list": "*"
+      "mulle-objc/mulle-objc-tools": "*",
+      "MulleFoundation/MulleObjCContainerFoundation": "*",
+      "MulleFoundation/MulleObjCStandardFoundation": "*"
    }
 }

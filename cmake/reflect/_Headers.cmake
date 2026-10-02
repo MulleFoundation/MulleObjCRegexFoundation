@@ -33,6 +33,13 @@ src/generic/include-private.h
 )
 
 #
+# contents selected with patternfile ??-header--private-headers
+#
+set( PRIVATE_HEADERS
+src/MulleObjCPattern-Private.h
+)
+
+#
 # contents selected with patternfile ??-header--public-generated-headers
 #
 set( PUBLIC_GENERATED_HEADERS
@@ -54,7 +61,16 @@ src/generic/include.h
 # contents selected with patternfile ??-header--public-headers
 #
 set( PUBLIC_HEADERS
+src/MulleObjCPatternEnumerator.h
+src/MulleObjCPatternMatch.h
+src/MulleObjCPattern.h
 src/MulleObjCRegexFoundation.h
+src/MulleObjCTokenProblem.h
+src/MulleObjCTokenRule.h
+src/MulleObjCTokenSet.h
+src/MulleObjCToken.h
+src/MulleObjCTokenizer.h
+src/NSScanner+Regex.h
 src/NSString+Regex.h
 src/generic/MulleObjCDeps+MulleObjCRegexFoundation.h
 )

@@ -1,0 +1,32 @@
+letters: yes
+  ab: loc=4 rest=[-12 cd-34]
+letters again: no
+  stuck: loc=4 rest=[-12 cd-34]
+number: yes
+  -12: loc=7 rest=[ cd-34]
+letters: yes
+  cd: loc=10 rest=[-34]
+number: no
+  skipped: loc=3 rest=[x]
+pair: yes
+  match: ab-12
+  group1: ab
+  group2: 12
+  done: loc=5 rest=[]
+pair: no
+  match nil: yes
+  unchanged: loc=0 rest=[ab]
+pair: yes
+up: yes
+  gobbled: [.]
+  cd: loc=6 rest=[cd-34]
+up here: yes
+  gobbled: []
+  unchanged: loc=6 rest=[cd-34]
+cd: yes
+up: no
+  gobbled: []
+empty: no
+  unchanged: loc=0 rest=[abc]
+empty text: no
+  unchanged: loc=0 rest=[]

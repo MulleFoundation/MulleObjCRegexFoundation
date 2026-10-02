@@ -1,0 +1,21 @@
+space class, extended: 4 [	|
+|| ]
+space class, plain: 0 []
+[ \t] on a tab, extended: 1 [	]
+[ \t] on a tab, plain: 0 []
+[ \t] on 't', plain: 1 [t]
+space class on nbsp: 1 [ ]
+[[\]] on ']': 1 []]
+[[\\]] on backslash: 1 [\]
+[[\-]] on '-': 1 [-]
+[^[:space:]] on ' a ': 1 [a]
+[[:word:]]+ on a ONE HALF: 1 [a½b]
+[[:ident:]]+ on a ONE HALF: 2 [a|b]
+[[:ident:]]+ on 'abc_1': 1 [abc_1]
+\d, extended: malformed
+\d, plain: 1 [d]
+escaped bracket class: 0 groups
+escaped bracket class, match: 1 [(]
+escaped bracket class, plain: 1 groups
+digit group: 1 groups
+digit group: 123
