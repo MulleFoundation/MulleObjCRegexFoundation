@@ -10,7 +10,6 @@
       repo="MulleObjCRegexFoundation";
       homepage="https://github.com/MulleFoundation/MulleObjCRegexFoundation";
       license="BSD-3-Clause";
-      version="0.21.0";
    };
    dependencies =
    (
@@ -25,9 +24,9 @@
       {
          description="📒 Lists mulle-objc runtime information contained in executables.";
          domain="github";
-         name="mulle-objc-list";
-         repo="mulle-objc-list";
-         url="https://github.com/mulle-objc/mulle-objc-list";
+         name="mulle-objc-tools";
+         repo="mulle-objc-tools";
+         url="https://github.com/mulle-objc/mulle-objc-tools";
          user="mulle-objc";
       },
       {
@@ -36,6 +35,14 @@
          name="MulleObjCContainerFoundation";
          repo="MulleObjCContainerFoundation";
          url="https://github.com/MulleFoundation/MulleObjCContainerFoundation";
+         user="MulleFoundation";
+      },
+      {
+         description="🚤 Objective-C classes based on the C standard library";
+         domain="github";
+         name="MulleObjCStandardFoundation";
+         repo="MulleObjCStandardFoundation";
+         url="https://github.com/MulleFoundation/MulleObjCStandardFoundation";
          user="MulleFoundation";
       }
    );
